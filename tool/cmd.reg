@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+
+;=========为文件右键添加cmd快速入口
+[-HKEY_CLASSES_ROOT\Directory\shell\runas]
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@="cmd here"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+;=========为目录右键添加cmd快速入口
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+@="cmd here"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+;=========为磁盘右键添加cmd快速入口
+[-HKEY_CLASSES_ROOT\Drive\shell\runas]
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+@="cmd here"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+;=========
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shell\runas]
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\runas]
+"HasLUAShield"=""
+@="cmd here"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
