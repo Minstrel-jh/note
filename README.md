@@ -1,7 +1,7 @@
 # 笔记
 
 - 编程基础
-  - [Java](/note/Java/README.md)
+  - [Java](/note/java/README.md)
 - 研发工具
   - [集成开发环境](/note/IDE/README.md)
   - [Linux](/note/Linux/README.md)
