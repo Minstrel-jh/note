@@ -3,28 +3,28 @@
 - 编程基础
   - [Java](/note/java/README.md)
 - 研发工具
-  - [集成开发环境](/note/IDE/README.md)
-  - [Linux](/note/Linux/README.md)
-  - [Windows](/note/Win/README.md)
+  - [集成开发环境](/note/ide/README.md)
+  - [Linux](/note/linux/README.md)
+  - [Windows](/note/win/README.md)
   - 代码管理工具
-    - [Git](/note/Git/README.md)
+    - [Git](/note/git/README.md)
   - 虚拟机
-    - [VMware](/note/VMware/README.md)
+    - [VMware](/note/vmware/README.md)
 - 后端
   - 框架
-    - [Akka](/note/Akka/README.md)
+    - [Akka](/note/akka/README.md)
   - 服务器软件
     - Web服务器
-      - [Nginx](/note/Nginx/README.md)
+      - [Nginx](/note/nginx/README.md)
   - 中间件
     - 消息队列
-      - [Kafka](/note/Kafka/README.md)
+      - [Kafka](/note/kafka/README.md)
   - 分布式/微服务
     - 服务发现/注册
-      - [Zookeeper](/note/Zookeeper/README.md)
+      - [Zookeeper](/note/zookeeper/README.md)
   - 虚拟化/容器化
     - 容器技术
-      - [Docker](/note/Docker/README.md)
+      - [Docker](/note/docker/README.md)
 - 前端
   - 组件化框架
-    - [React](/note/React/README.md)
+    - [React](/note/react/README.md)
