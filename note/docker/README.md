@@ -1,6 +1,6 @@
 [root]: /README.md
-[docker>install_on_ubuntu]: /README.md
-[docker>network]: /note/docker/install_on_ubuntu.md
+[docker>install_on_ubuntu]: /note/docker/install_on_ubuntu.md
+[docker>network]: /note/docker/netword.md
 [docker>image]: /note/docker/image.md
 [docker>container]: /note/docker/container.md
 
