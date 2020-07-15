@@ -2,7 +2,7 @@
 [akka>introduction]: /note/akka/akka_http/introduction.md
 [akka>akka-http-session.md]: /note/akka/akka_http/akka-http-session.md
 [url:akka]: https://doc.akka.io/docs/akka/current/
-[url:akka-http]: https://doc.akka.io/docs/akka/current/
+[url:akka-http]: https://doc.akka.io/docs/akka-http/current/
 
 # Akka学习笔记
 
