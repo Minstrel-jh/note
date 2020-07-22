@@ -1,9 +1,12 @@
 [akka]: /note/akka/README.md
 [url:cookie_session_token]: https://www.cnblogs.com/moyand/p/9047978.html
+[url:akka-http]: https://doc.akka.io/docs/akka-http/current/
 
 # akka-http-session
 
 [返回][akka]
+
+> [Akka HTTP 官方文档][url:akka-http]
 
 akka-http-session使用cookies或自定义headers + local storage提供客户端会话(Session)管理的指令，并且具有可选的Json Web Tokens格式支持。
 

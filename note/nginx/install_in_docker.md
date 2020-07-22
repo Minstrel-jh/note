@@ -19,9 +19,36 @@ Error response from daemon: Get https://registry-1.docker.io/v2/library/nginx/ma
 
 ## 创建容器
 
-```bash
-docker run --name my-nginx --restart=always -d \
-    -p 10080:80 \
-    -v ~/docker/my-nginx/html:/usr/share/nginx/html:ro \
-    nginx
-```
+- 默认配置创建容器
+
+    ```bash
+    docker run --name my-nginx --restart=always -d \
+        -p 10080:80 \
+        -v ~/docker/my-nginx/html:/usr/share/nginx/html:ro \
+        nginx
+    ```
+
+- 自定义配置创建容器
+
+    ```bash
+    docker run --name my-nginx --restart=always \
+    -p 20080:20080 \
+    -v ~/docker/my-nginx/conf.d:/etc/nginx/conf.d:ro \
+    -v ~/docker/my-nginx/data/con/trunk/static:/data/con/trunk \
+    -d nginx:1.17
+    ```
+
+    需要提前在conf.d下添加配置文件*.conf：
+
+    ```text
+    server {
+        listen       20080;
+        server_name  _;
+
+        root /data/con/trunk;
+
+        location / {
+            proxy_pass http://127.0.0.1:8080;
+        }
+    }
+    ```
