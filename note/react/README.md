@@ -9,3 +9,5 @@
 
 - 环境搭建
 - [生命周期][react>life_cycle]
+- Redux
+  - 
