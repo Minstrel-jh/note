@@ -52,3 +52,5 @@ Error response from daemon: Get https://registry-1.docker.io/v2/library/nginx/ma
         }
     }
     ```
+
+- 查看日志 /var/log/nginx

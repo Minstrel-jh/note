@@ -70,6 +70,12 @@ sudo systemctl status ssh
     chmod 700 .ssh/id_rsa
     ```
 
+- 连接
+
+    ```bash
+    ssh ariane@192.168.189.217 -i ~/sshkey/easy_manage_id_rsa
+    ```
+
 - 省去连接时公钥确认步骤
 
     在首次连接服务器时，会弹出公钥确认的提示。这会导致某些自动化任务，由于初次连接服务器而导致自动化任务中断。或者由于  ~/.ssh/known_hosts 文件内容清空，导致自动化任务中断。
