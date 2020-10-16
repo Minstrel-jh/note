@@ -1,10 +1,13 @@
 [nginx]: /note/nginx/README.md
+[url:nginx_docs]: http://nginx.org/en/docs/
+[url:nginx_docs_cn]: https://www.nginx.cn/doc/
+[url:nginx_global_param]: https://segmentfault.com/a/1190000018505993
 
 # 配置 - location规则
 
-> [Nginx文档](http://nginx.org/en/docs/)  
-> [Nginx中文文档](https://www.nginx.cn/doc/)  
-> [nginx访问控制与参数调优](https://segmentfault.com/a/1190000018505993)
+> [Nginx文档][url:nginx_docs]  
+> [Nginx中文文档][url:nginx_docs_cn]  
+> [nginx访问控制与参数调优][url:nginx_global_param]
 
 [返回][nginx]  
 
